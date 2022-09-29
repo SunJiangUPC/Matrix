@@ -24,6 +24,9 @@ public:
         free(resvec);
         resvec = NULL;
     }
+    //
+    int outeriter = 0;// 重启动gmres
+    int inneriter = 0;
 };
 
 // Solve lower matrix: L*y = b
@@ -33,6 +36,9 @@ void solveUCSR(const CSRMatrix* U, const double* y, double* x);
 // BicgStab algorithm
 void bicgstab(IterInfo* info, double* x, const CSRMatrix* A, const double* b, const double* Tol, const int* MaxIter,
 	const CSRMatrix* L = NULL, const CSRMatrix* U = NULL, const double* x0 = NULL);
+// gmres algorithm
+void gmres(IterInfo* info, double* x, const CSRMatrix* A, const double* b, const double* Tol,const int* MaxIter,
+    const int* Restart = NULL, const CSRMatrix* L = NULL, const CSRMatrix* U = NULL, const double* x0 = NULL);
 
 // 预处理技术
 void ilu0(const CSRMatrix* A, CSRMatrix* L, CSRMatrix* U);

@@ -47,27 +47,27 @@ int main(int argnum, char* argvar[])
 	* 
 	*/
 	// ---- ∂®“Âæÿ’Û ---- //
-	int N = 4;
-	int NNZ = 10;
-	int AI[] = { 0,2,5,8,10 };
-	int AJ[] = { 0,1,0,1,2,1,2,3,2,3 };
-	double AA[] = { 4,3,2,6,5,3,7,2,4,5 };
+	int    N     = 4;
+	int    NNZ   = 10;
+	int    AI[]  = { 0,2,5,8,10 };
+	int    AJ[]  = { 0,1,0,1,2,1,2,3,2,3 };
+	double AA[]  = { 4,3,2,6,5,3,7,2,4,5 };
 	double Rhs[] = { 4,3,5,1 };
 	//
-	int LNNZ = 7;
-	int LI[] = { 0,1,3,5,7 };
-	int LJ[] =    { 0,0,1,1,2,2,3 };
+	int    LNNZ = 7;
+	int    LI[] = { 0,1,3,5,7 };
+	int    LJ[] = { 0,0,1,1,2,2,3 };
 	double LA[] = { 4,2,6,3,7,4,5 };
 	//
-	int UNNZ = 7;
-	int UI[] = { 0,2,4,6,7 };
-	int UJ[] =    { 0,1,1,2,2,3,3 };
+	int    UNNZ = 7;
+	int    UI[] = { 0,2,4,6,7 };
+	int    UJ[] = { 0,1,1,2,2,3,3 };
 	double UA[] = { 4,3,6,5,7,2,5 };
 	//
 	double x[] = { 3,6,2,1 };
 	double y[] = { 3,2,1,5 };
 	double z[] = { 0,0,0,0 };
-	double a = 4, b = 3;
+	double a   = 4, b = 3;
 	// ---- œ° Ëæÿ’Û ---- //
 	CSRMatrix A;
 	A.initial('S', N, NNZ, AI, AJ, AA);
@@ -111,13 +111,13 @@ int main(int argnum, char* argvar[])
 	readCSRMatrix(filename_A, &A1);
 	readCSRMatrix(filename_L, &L1);
 	readCSRMatrix(filename_U, &U1);
-	readVector(filename_b, b1);
+	readVector(   filename_b, b1);
 
-	double start = 0.0, stop = 0.0;
+	double    start = 0.0, stop = 0.0;
 
-	IterInfo info;
-	double tol = 1.0e-8;
-	int maxit = 100;
+	IterInfo  info;
+	double    tol = 1.0e-8;
+	int       maxit = 100;
 	//bicgstab(&info, z, &A, Rhs, &tol, &maxit);
 	//printf("A:\n");	printMatrix(&A);
 	//printf("RHS:\n"); printvecRow(N, Rhs);

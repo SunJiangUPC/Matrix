@@ -27,6 +27,7 @@ extern "C"
 	double dnorm(const int* N, const double* x);
 	// y := a*x + b*y
 	void daxpby(const int* N, const double* a, const double* x, const double* b, double* y);
+	//
 	
 
 #ifdef __cplusplus

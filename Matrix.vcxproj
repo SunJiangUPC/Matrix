@@ -166,6 +166,7 @@
     <ClCompile Include="blas\vector.cpp" />
     <ClCompile Include="config\information.cpp" />
     <ClCompile Include="solve\bicgstab.cpp" />
+    <ClCompile Include="solve\gmres.cpp" />
     <ClCompile Include="solve\solveLCSR.cpp" />
     <ClCompile Include="solve\solveUCSR.cpp" />
     <ClCompile Include="test\test_slove.cpp" />
