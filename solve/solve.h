@@ -6,6 +6,7 @@
 #include <algorithm>
 
 class CSRMatrix;
+class DenseMatrix;
 // 迭代求解信息
 class IterInfo
 {
@@ -42,5 +43,8 @@ void gmres(IterInfo* info, double* x, const CSRMatrix* A, const double* b, const
 
 // 预处理技术
 void ilu0(const CSRMatrix* A, CSRMatrix* L, CSRMatrix* U);
+
+// 低阶稠密矩阵求解
+void solveDense(int N, const double** A, const double* x, double* y);
 
 #endif // !SOLVE_H

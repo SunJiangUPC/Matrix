@@ -42,6 +42,9 @@
     <ClInclude Include="blas\memory.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="blas\DenseMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="blas\daxpby.cpp">
@@ -90,6 +93,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="solve\gmres.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="blas\DenseMatrix.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

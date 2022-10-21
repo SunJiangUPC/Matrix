@@ -147,6 +147,7 @@
     <ClInclude Include="blas\blasL1.h" />
     <ClInclude Include="blas\blasL2.h" />
     <ClInclude Include="blas\CSRmatrix.h" />
+    <ClInclude Include="blas\DenseMatrix.h" />
     <ClInclude Include="blas\memory.h" />
     <ClInclude Include="blas\vector.h" />
     <ClInclude Include="config\config.h" />
@@ -159,6 +160,7 @@
     <ClCompile Include="blas\dAxPbyCSR.cpp" />
     <ClCompile Include="blas\dcopy.cpp" />
     <ClCompile Include="blas\ddot.cpp" />
+    <ClCompile Include="blas\DenseMatrix.cpp" />
     <ClCompile Include="blas\dgemvCSR.cpp" />
     <ClCompile Include="blas\dnorm.cpp" />
     <ClCompile Include="blas\dscal.cpp" />

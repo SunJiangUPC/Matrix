@@ -1,3 +1,128 @@
-﻿  test_slove.cpp
+﻿  CSRmatrix.cpp
+  daxpby.cpp
+  dAxPbyCSR.cpp
+  dcopy.cpp
+  ddot.cpp
+  DenseMatrix.cpp
+  dgemvCSR.cpp
+  dnorm.cpp
+  dscal.cpp
+  information.cpp
+  bicgstab.cpp
+D:\Sunjiang\CPP Code\Matrix\solve\bicgstab.cpp(401,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Sunjiang\CPP Code\Matrix\solve\bicgstab.cpp(453,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Sunjiang\CPP Code\Matrix\solve\bicgstab.cpp(555,24): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Sunjiang\CPP Code\Matrix\solve\bicgstab.cpp(594,20): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Sunjiang\CPP Code\Matrix\solve\bicgstab.cpp(625,28): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\Sunjiang\CPP Code\Matrix\solve\bicgstab.cpp(643,20): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  gmres.cpp
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(541,31): error C2143: 语法错误: 缺少“)”(在“:”的前面)
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(541,28): error C2064: 项不会计算为接受 1 个参数的函数
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(541,31): error C2143: 语法错误: 缺少“;”(在“:”的前面)
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(541,31): error C2059: 语法错误:“:”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(541,50): error C2059: 语法错误:“)”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(541,52): error C2017: 非法的转义序列
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(544,35): error C2143: 语法错误: 缺少“)”(在“:”的前面)
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(544,32): error C2064: 项不会计算为接受 0 个参数的函数
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(544,35): error C2143: 语法错误: 缺少“;”(在“:”的前面)
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(544,35): error C2059: 语法错误:“:”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(544,44): error C2059: 语法错误:“)”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(545,21): error C2064: 项不会计算为接受 1 个参数的函数
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(545,40): error C2064: 项不会计算为接受 1 个参数的函数
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(545,59): error C2064: 项不会计算为接受 1 个参数的函数
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(546,26): error C2065: “k”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(546,41): error C2143: 语法错误: 缺少“;”(在“:”的前面)
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(546,46): error C2143: 语法错误: 缺少“;”(在“:”的前面)
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(546,46): error C2143: 语法错误: 缺少“)”(在“:”的前面)
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(546,46): error C2059: 语法错误:“:”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(546,49): error C2059: 语法错误:“)”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(546,51): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(547,34): error C2065: “k”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(547,48): error C2065: “k”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(547,58): error C2065: “k”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(548,50): error C2143: 语法错误: 缺少“)”(在“:”的前面)
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(548,47): error C2064: 项不会计算为接受 0 个参数的函数
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(548,50): error C2143: 语法错误: 缺少“;”(在“:”的前面)
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(548,50): error C2059: 语法错误:“:”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(548,54): error C2059: 语法错误:“)”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(548,72): error C2001: 常量中有换行符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(548,72): error C2015: 常量中的字符太多
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(550,25): error C3861: “norm”: 找不到标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(550,48): error C3861: “norm”: 找不到标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(556,21): error C2065: “xm”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(556,38): error C2110: “+”: 不能添加两个指针
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(560,21): error C2065: “addvc”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(560,30): error C2760: 语法错误:此处出现意外的“-”；应为“表达式”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(560,35): error C2143: 语法错误: 缺少“)”(在“:”的前面)
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(560,32): error C2064: 项不会计算为接受 1 个参数的函数
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(560,35): error C2059: 语法错误:“:”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(560,63): error C2017: 非法的转义序列
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(560,87): error C2059: 语法错误:“)”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(561,58): error C2064: 项不会计算为接受 1 个参数的函数
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(561,70): error C2064: 项不会计算为接受 2 个参数的函数
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(561,87): error C2143: 语法错误: 缺少“;”(在“]”的前面)
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(561,87): error C2059: 语法错误:“]”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(562,30): error C2065: “addvc”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(562,25): error C3861: “norm”: 找不到标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(562,50): error C2065: “xm”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(562,45): error C3861: “norm”: 找不到标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(568,35): error C2143: 语法错误: 缺少“)”(在“:”的前面)
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(568,32): error C2064: 项不会计算为接受 0 个参数的函数
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(568,35): error C2143: 语法错误: 缺少“;”(在“:”的前面)
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(568,35): error C2059: 语法错误:“:”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(568,44): error C2059: 语法错误:“)”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(569,21): error C2064: 项不会计算为接受 1 个参数的函数
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(569,40): error C2064: 项不会计算为接受 1 个参数的函数
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(569,59): error C3861: “addvc”: 找不到标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(570,26): error C2065: “k”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(570,41): error C2143: 语法错误: 缺少“;”(在“:”的前面)
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(570,46): error C2143: 语法错误: 缺少“;”(在“:”的前面)
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(570,46): error C2143: 语法错误: 缺少“)”(在“:”的前面)
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(570,46): error C2059: 语法错误:“:”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(570,49): error C2059: 语法错误:“)”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(570,51): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(571,34): error C2065: “k”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(571,48): error C2065: “k”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(571,59): error C2065: “k”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(571,53): error C3861: “addvc”: 找不到标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(572,50): error C2143: 语法错误: 缺少“)”(在“:”的前面)
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(572,47): error C2064: 项不会计算为接受 0 个参数的函数
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(572,50): error C2143: 语法错误: 缺少“;”(在“:”的前面)
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(572,50): error C2059: 语法错误:“:”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(572,54): error C2059: 语法错误:“)”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(572,72): error C2001: 常量中有换行符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(572,72): error C2015: 常量中的字符太多
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(574,21): error C2065: “xm”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(574,26): error C2065: “xm”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(578,37): error C2065: “AI”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(578,41): error C2065: “AJ”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(578,45): error C2065: “AA”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(578,49): error C2065: “xm”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(579,21): error C3861: “norm”: 找不到标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(580,25): error C2065: “xm”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(582,45): error C2760: 语法错误:此处出现意外的“;”；应为“{”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(583,21): error C2059: 语法错误:“break”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(588,44): error C2065: “LI”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(588,48): error C2065: “LJ”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(588,52): error C2065: “LA”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(588,30): error C3861: “dsolveLCSR”: 找不到标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(589,26): error C3861: “all”: 找不到标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(597,44): error C2065: “UI”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(597,48): error C2065: “UJ”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(597,52): error C2065: “UA”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(597,30): error C3861: “dsolveUCSR”: 找不到标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(598,26): error C3861: “all”: 找不到标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(605,44): error C2664: “double dnorm(const int *,const double *)”: 无法将参数 1 从“int”转换为“const int *”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(605,35): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\Sunjiang\CPP Code\Matrix\blas\blasL1.h(27,9): message : 参见“dnorm”的声明
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(606,17): error C2064: 项不会计算为接受 1 个参数的函数
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(612,28): error C2065: “xm”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(617,25): error C2065: “xm”: 未声明的标识符
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(619,45): error C2760: 语法错误:此处出现意外的“;”；应为“{”
+D:\Sunjiang\CPP Code\Matrix\solve\gmres.cpp(619,45): fatal  error C1003: 错误计数超过 100；正在停止编译
+  solveLCSR.cpp
+  solveUCSR.cpp
+  test_slove.cpp
 D:\Sunjiang\CPP Code\Matrix\test\test_slove.cpp(145,28): warning C4244: “参数”: 从“float”转换到“const int”，可能丢失数据
-  Matrix.vcxproj -> D:\Sunjiang\CPP Code\Matrix\x64\Debug\Matrix.exe
+  正在生成代码...
+D:\Sunjiang\CPP Code\Matrix\blas\DenseMatrix.cpp(39): warning C4715: “DenseMatrix::operator=”: 不是所有的控件路径都返回值
